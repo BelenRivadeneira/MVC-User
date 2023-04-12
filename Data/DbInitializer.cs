@@ -13,7 +13,7 @@ namespace MVC.Data
             // Busca si ya hay usuarios en la base de datos.
             if (context.Users.Any())
             {
-                return;   // La base de datos ya ha sido sembrada
+                return;   // La base de datos ya ha sido creada
             }
 
             // Crea una lista de usuarios por defecto
