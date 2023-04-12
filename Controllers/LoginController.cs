@@ -12,8 +12,8 @@ using System.Threading.Tasks;
 
 namespace MVC.Controllers
 {
+    [Route("[controller]")]
     [ApiController]
-    [Route("user")]
     public class LoginController : ControllerBase
     {
         private readonly IConfiguration _configuration;
